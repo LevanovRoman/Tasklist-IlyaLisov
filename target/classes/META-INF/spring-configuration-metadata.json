@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "security.jwt",
+      "type": "com.myapp.tasklistIlyaLisov.service.props.JwtProperties",
+      "sourceType": "com.myapp.tasklistIlyaLisov.service.props.JwtProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "security.jwt.access",
+      "type": "java.lang.Long",
+      "sourceType": "com.myapp.tasklistIlyaLisov.service.props.JwtProperties"
+    },
+    {
+      "name": "security.jwt.refresh",
+      "type": "java.lang.Long",
+      "sourceType": "com.myapp.tasklistIlyaLisov.service.props.JwtProperties"
+    },
+    {
+      "name": "security.jwt.secret",
+      "type": "java.lang.String",
+      "sourceType": "com.myapp.tasklistIlyaLisov.service.props.JwtProperties"
+    }
+  ],
+  "hints": []
+}
